@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">User_Story</string>
+    <string name="welcome">Type login&amp;password</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First_name</string>
+    <string name="last_name">Last_name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="not_found">404</string>
+    <string name="add_record">Add record</string>
+    <string name="delete_record">Delete record</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="EMPTY_FIELD">Empty field</string>
+    <string name="date_of_birthday">Date of birthday</string>
+    <string name="success_reg">Successfully registered</string>
+    <string name="no_email">no email</string>
+    <string name="no_password">no pass</string>
+    <string name="empty">Empty field</string>
+    <string name="delete_item">Delete item</string>
+    <string name="update_item">Update item</string>
+    <string name="symb_limit">500 symb limit*</string>
+    <string name="title">title</string>
+    <string name="article">article</string>
+    <string name="no_data_received">no data received</string>
+
+    <string-array name="menus">
+        <item>Profile</item>
+        <item>Articles</item>
+    </string-array>
+</resources>

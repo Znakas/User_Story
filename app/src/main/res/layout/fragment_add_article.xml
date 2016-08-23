@@ -6,15 +6,18 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/app_bg_holo_light_blue">
 
         <EditText
             android:id="@+id/edit_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/title"
+            android:layout_margin="@dimen/view_margin"
             android:inputType="text"
-            android:maxLength="50" />
+            android:maxLength="50"
+            android:editable="false" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -27,6 +30,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/symb_limit"
             android:inputType="text"
+            android:layout_margin="@dimen/view_margin"
+
             android:maxLength="500" />
     </android.support.design.widget.TextInputLayout>
 

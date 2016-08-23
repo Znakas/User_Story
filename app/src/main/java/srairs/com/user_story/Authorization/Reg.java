@@ -35,8 +35,8 @@ public class Reg extends Fragment implements View.OnClickListener {
         View RegView = inflater.inflate(R.layout.fragment_registration, container, false);
         edit_first_name = (EditText) RegView.findViewById(R.id.edit_first_name);
         edit_last_name = (EditText) RegView.findViewById(R.id.edit_last_name);
-        edit_mail = (EditText) RegView.findViewById(R.id.edit_mail);
         edit_date = (EditText) RegView.findViewById(R.id.edit_date);
+        edit_mail = (EditText) RegView.findViewById(R.id.edit_mail);
         edit_password = (EditText) RegView.findViewById(R.id.edit_password);
         btn_register = (Button) RegView.findViewById(R.id.btn_register);
         btn_register.setOnClickListener(this);

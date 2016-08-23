@@ -28,20 +28,44 @@
         android:inputType="date"
         android:hint="@string/date_of_birthday" />
 
-    <EditText
-        android:id="@+id/edit_mail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/view_margin"
-        android:hint="@string/e_mail" />
 
-    <EditText
-        android:id="@+id/edit_password"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
+        android:gravity="right"
         android:layout_margin="@dimen/view_margin"
-        android:hint="@string/password" />
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edit_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/e_mail" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="This field required not to be empty"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_margin="@dimen/view_margin"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/password" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="This field required not to be empty"/>
+    </LinearLayout>
 
     <Button
         android:id="@+id/btn_register"

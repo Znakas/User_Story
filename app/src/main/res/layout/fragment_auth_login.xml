@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/view_margin"
             android:gravity="start"
-            android:hint="@string/login"
+            android:hint="@string/e_mail"
             android:inputType="text"
             android:textSize="20sp" />
     </android.support.design.widget.TextInputLayout>
@@ -39,7 +39,7 @@
             android:layout_margin="@dimen/view_margin"
             android:gravity="start"
             android:hint="@string/password"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:textSize="20sp" />
     </android.support.design.widget.TextInputLayout>
 
@@ -48,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:layout_margin="@dimen/view_margin"
         android:text="@string/login"
         android:textSize="20sp" />
 
